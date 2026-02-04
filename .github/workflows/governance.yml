@@ -1,0 +1,9 @@
+name: Governance checks
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  enforce:
+    uses: FlorianS93/github-workflows/blob/main/.github/workflows/enforce-merge-strategy.yml@main
