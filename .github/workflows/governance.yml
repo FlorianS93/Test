@@ -6,4 +6,4 @@ on:
 
 jobs:
   enforce:
-    uses: FlorianS93/github-workflows/blob/main/.github/workflows/enforce-merge-strategy.yml@main
+    uses: FlorianS93/github-workflows/.github/workflows/enforce-merge-strategy.yml@main
